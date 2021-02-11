@@ -18,7 +18,7 @@ public class DeliveryCardTest {
         $("[data-test-id='city'] input").setValue("Калининград");
 
         Calendar calendar = Calendar.getInstance();
-        calendar.add(Calendar.DAY_OF_MONTH, 15);
+        calendar.add(Calendar.DAY_OF_MONTH, 17);
         SimpleDateFormat rusDateFormat = new SimpleDateFormat("dd.MM.yyyy");
         String dateMeeting = rusDateFormat.format(calendar.getTime());
         SelenideElement dateElement = $("[data-test-id=date] input[class=input__control]");
