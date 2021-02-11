@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class DeliveryCardTest {
     @Test
-    void cardOrderDeliveryFormTest() {
+    void DeliveryCardFormTest() {
         open("http://localhost:9999");
         $("[data-test-id='city'] input").setValue("Калининград");
 
